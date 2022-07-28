@@ -14,7 +14,7 @@ fetch('http://economia.awesomeapi.com.br/json/last/USD-BRL').then(response=>{
     
         const res = document.getElementsByTagName('p')[0];
         let con =  converter(Number(real.value));
-        res.innerHTML = '$ ' + con.toFixed(2    );
+        res.innerHTML = '$ ' + con.toFixed(2);
     })
 
 })
