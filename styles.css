@@ -20,6 +20,11 @@ input{
     height: 30px;
     border-radius: 15px;
     outline: none;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #ccc3c3;
 }
 
 #real{
@@ -29,6 +34,7 @@ input{
 p{
     font-weight: bold;
     font-size: 25px;
+    color: white;
 }
 
 button{
